@@ -2,6 +2,8 @@
 
 Bem-vindo ao repositório do meu portfólio! Aqui está o website que apresenta minhas habilidades, experiência e projetos na área de Desenvolvimento Front-end.
 
+Link: https://portfolio-lucas-de-santana-schmalzs-projects.vercel.app/
+
 ## 💻 Sobre o Projeto (Em Desenvolvimento)
 Este projeto é um site desenvolvido para exibir meu portfólio pessoal. Ele foi criado com o objetivo de demonstrar minha evolução como desenvolvedor e facilitar o contato com recrutadores e empresas interessadas no meu trabalho.
 
