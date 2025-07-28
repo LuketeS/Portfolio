@@ -2,17 +2,20 @@
 
 :root {
     --cor-primaria:#020c1a;
-    --cor-secundaria: white;
-    --cor-terciaria: #FF6500;
-    --cor-hover: #0d1f38; 
+    --cor-textos: white;
+    --cor-textos-destaque: #FF6500;
+    --cor-hover: #1c1f22; 
 
     --fonte-primária: "Krona One", sans-serif;
-    --fonte-secundaria: "Montserrat", sans-serif;
+    --fonte-textos: "Montserrat", sans-serif;
 }
 
 * {
     margin:0;
     padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    vertical-align: baseline;
 }
 
 html,body {
@@ -24,7 +27,7 @@ body {
     flex-direction: column;
     background-color: var(--cor-primaria);
     box-sizing: border-box;
-    color: var(--cor-secundaria);    
+    color: var(--cor-textos);    
 }
 
 main{
@@ -32,7 +35,14 @@ main{
 }
 
 .cabecalho {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
     padding: 2% 0% 0% 15%;    
+}
+
+.cabecalho__navbar{
+    margin: 0 0 0 5%;
 }
 
 .cabecalho__menu {
@@ -42,10 +52,10 @@ main{
 
 
 .cabecalho__menu__link {
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-textos);
     font-weight: 600;
-    font-size: 1.5rem;
-    color: var(--cor-terciaria);
+    font-size: 2rem;
+    color: var(--cor-textos-destaque);
     text-decoration: none;
 }
 
@@ -72,12 +82,12 @@ main{
 }
 
 .titulo-destaque {
-    color: var(--cor-terciaria);
+    color: var(--cor-textos-destaque);
 }
 
 .apresentacao__conteudo__texto {
     font-size: 1.5rem;
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-textos);
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -88,7 +98,7 @@ main{
     width: 50%;
     border: 3px solid;
     border-radius: 2rem;
-    border-color: var(--cor-terciaria);
+    border-color: var(--cor-textos-destaque);
    
 }
 
@@ -115,28 +125,28 @@ main{
     font-size: 1.5rem;
     padding: 21.5px 0px;
     text-decoration: none;
-    color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria);
+    color: var(--cor-textos);
+    font-family: var(--fonte-textos);
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    border: 3px inset  var(--cor-terciaria);
+    border: 3px inset  var(--cor-textos-destaque);
     justify-content: center;
     gap: 16px;
 }
 
-.apresentacao__conteudo__links__link:hover {
+.apresentacao__conteudo__links__navegacao:hover {
     background-color: var(--cor-hover);
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 
 .rodape {
-    padding: 15px;
+    padding: 10px;
     color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-textos-destaque);
     text-align: center;
     font-size: 1.5rem;
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-textos);
     font-weight: 400;
 }
 
