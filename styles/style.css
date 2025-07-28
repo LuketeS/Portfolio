@@ -15,10 +15,20 @@
     padding:0;
 }
 
+html,body {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     background-color: var(--cor-primaria);
     box-sizing: border-box;
     color: var(--cor-secundaria);    
+}
+
+main{
+    flex:1;
 }
 
 .cabecalho {
@@ -130,7 +140,7 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
     .cabecalho {
         padding: 10%;
     }

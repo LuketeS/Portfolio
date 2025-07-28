@@ -14,21 +14,9 @@ Este projeto é um site desenvolvido para exibir meu portfólio pessoal. Ele foi
 
 ## 🌟 Recursos do Site
 - Apresentação pessoal
-- Seção de projetos com descrição e links
+- *{Em Desenvolvimento} Seção de projetos com descrição e links
 - Contato e redes sociais
 - Design responsivo para dispositivos móveis e desktop
-
-## 📝 Como Usar
-Para visualizar o site em sua máquina local:
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   ```
-2. Acesse a pasta do projeto:
-   ```bash
-   cd seu-repositorio
-   ```
-3. Abra o arquivo `index.html` no navegador.
 
 ## 🔗 Acesse o Portfólio Online
 [Meu Portfólio](https://seu-site.com)
