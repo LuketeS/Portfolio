@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-primaria:#020c1a;
+    --cor-primaria:#010710;
     --cor-textos: white;
     --cor-textos-destaque: #FF6500;
     --cor-hover: #1c1f22; 
@@ -38,7 +38,7 @@ main{
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    padding: 2% 0% 0% 15%;    
+    padding: 2% 0% 0% 10%;    
 }
 
 .cabecalho__navbar{
@@ -55,23 +55,24 @@ main{
     font-family: var(--fonte-textos);
     font-weight: 600;
     font-size: 2rem;
-    color: var(--cor-textos-destaque);
+    color: var(--cor-textos);
     text-decoration: none;
 }
 
 .apresentacao {
-    padding: 5% 15%;
+    padding: 5% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    gap: 82px;       
+    gap: 80px;       
 }
 
 .apresentacao__conteudo {
-    width: 50%;    
+    width: 40%;    
     display: flex;
     flex-direction: column;
     gap: 40px;
+   
 }
 
 .apresentacao__conteudo__titulo {
@@ -93,13 +94,17 @@ main{
     font-style: normal;
 }
 
-#apresentacao__conteudo__imagem {    
-    
-    width: 50%;
-    border: 3px solid;
-    border-radius: 2rem;
-    border-color: var(--cor-textos-destaque);
-   
+.apresentacao__conteudo__imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.apresentacao__conteudo__imagem__img{        
+    width: 80%; 
+    border-radius: 1.5rem;
+    border-color: var(--cor-textos-destaque);   
 }
 
 .apresentacao__conteudo__links {
@@ -119,11 +124,11 @@ main{
 
 .apresentacao__conteudo__links__navegacao {
     display: flex;
-    width: 50%;
+    width: 40%;
     text-align: center;
     border-radius: 16px;
     font-size: 1.5rem;
-    padding: 21.5px 0px;
+    padding: 21px 0px;
     text-decoration: none;
     color: var(--cor-textos);
     font-family: var(--fonte-textos);
@@ -142,12 +147,90 @@ main{
 
 .rodape {
     padding: 10px;
-    color: var(--cor-primaria);
-    background-color: var(--cor-textos-destaque);
+    color: #acaaa9;
+    background-color: #040c16;
     text-align: center;
     font-size: 1.5rem;
     font-family: var(--fonte-textos);
     font-weight: 400;
+}
+
+.hover-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-underline::after,
+.hover-underline::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #ff7700, #ff0000);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.hover-underline::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.hover-underline:hover::after,
+.hover-underline:hover::before {
+  transform: scaleX(1);
+}
+
+.holographic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #000;
+}
+
+.holographic-card {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+
+.holographic-card h2 {
+  color: #0ff;
+  font-size: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.holographic-card::before {
+  content: '';
+  background: linear-gradient(
+    0deg, 
+    transparent, 
+    transparent 30%, 
+    rgba(0,255,255,0.3)
+  );
+  transform: rotate(-45deg);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.holographic-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+.holographic-card:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
 }
 
 @media (max-width: 1250px) {
@@ -165,7 +248,52 @@ main{
     }
     
     .apresentacao__conteudo{
-        width: auto;
+        width: 75%;
+    }
+
+    .apresentacao__conteudo__imagem{
+        width: 80%;
     }
     
 }
+
+@media (max-width: 866px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalho__menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 2118px) {
+    .apresentacao__conteudo{
+        max-width: 50%;
+    }
+
+    .apresentacao__conteudo__imagem{
+       max-width: 50%;
+    }    
+}
+
+@media (max-width: 366px) {
+    .apresentacao__conteudo{
+        word-wrap: break-word;
+    }
+
+    .cabecalho{
+        max-width: 100%;
+    }
+
+    .cabecalho__logo{
+        max-width: 100%;
+    }
+
+
+}
+

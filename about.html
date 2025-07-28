@@ -8,12 +8,14 @@
 </head>
 <body>
     <header class="cabecalho"> 
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link"href="about.html">Sobre Mim</a>
-        </nav>
+        <img class="cabecalho__logo" src="./assets/schluk-logo.png" alt="Logo da Schluk">
+        <div class="cabecalho__navbar">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link hover-underline" href="index.html">Home</a>
+                <a class="cabecalho__menu__link hover-underline"href="about.html">Sobre Mim</a>
+            </nav>
+        </div>
     </header>
-
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo"> Sobre Mim</h1>
@@ -23,7 +25,9 @@
             <p class="apresentacao__conteudo__texto">Com especialização em JavaScript, HTML e CSS, meu foco é transformar ideias em experiências digitais envolventes, ajudando pequenos negócios e designers a tirarem seus projetos do papel. 
                 Além do desenvolvimento, tenho interesse em UI/UX Design, garantindo que cada projeto entregue seja visualmente atraente e fácil de usar.
         </section>
-        <img id = "apresentacao__conteudo__imagem" src = "./assets/lucas.jpeg" alt="foto de lucas de santana schmalz">
+        <div class="apresentacao__conteudo__imagem holographic-card">       
+            <img class = "apresentacao__conteudo__imagem__img" src = "./assets/lucas-avatar.png" alt="Foto do Lucas de Santana Schmalz, um homem de pele clara, cabelo castanho escuro e barba, sorrindo levemente." >
+        </div> 
     </main>
 
     <footer class="rodape"> 
