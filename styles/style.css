@@ -257,15 +257,18 @@ main{
     
 }
 
-@media (max-width: 866px) {
+@media (max-width: 1042px) {
     .cabecalho {
         display: flex;
         flex-direction: column;
     }
 
+    .cabecalho__navbar {
+        margin: 0;
+    }
+
     .cabecalho__menu {
-        display: flex;
-        flex-direction: column;
+        display: flex;        
         justify-content: center;
         align-items: center;        
         gap: 20px;
@@ -274,7 +277,7 @@ main{
 
     .cabecalho__menu__link {
         padding: 2rem;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
 
@@ -305,6 +308,16 @@ main{
 @media (max-width: 680px) {
     .apresentacao__conteudo__links__navegacao{
         width: 80%;
+    }
+
+    .cabecalho__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cabecalho__menu__link {
+        padding: 0.5rem;
     }
 }
 
