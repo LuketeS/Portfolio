@@ -293,7 +293,17 @@ main{
     .cabecalho__logo{
         max-width: 100%;
     }
-
-
 }
 
+@media (max-width: 680px) {
+    .apresentacao__conteudo__links__navegacao{
+        width: 80%;
+    }
+}
+
+@media (max-width: 343px) {
+    .apresentacao__conteudo__links__navegacao{
+        width: 100%;
+        word-wrap: break-word;
+    }
+}
