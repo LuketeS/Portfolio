@@ -20,7 +20,7 @@ Este projeto é um site desenvolvido para exibir meu portfólio pessoal. Ele foi
 [Meu Portfólio](https://portfolio-lucas-de-santana-schmalzs-projects.vercel.app/)
 
 ## 👤 Contato
-- **LinkedIn:** [Seu Perfil](https://www.linkedin.com/in/seu-perfil/](https://www.linkedin.com/in/lucasschmalz/))
+- **LinkedIn:** [Seu Perfil](https://www.linkedin.com/in/lucasschmalz/)
 - **E-mail:** lsschmalz@gmail.com
 
 Fique à vontade para explorar o repositório e contribuir com sugestões!
