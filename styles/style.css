@@ -68,7 +68,7 @@ main{
 }
 
 .apresentacao__conteudo {
-    width: 40%;    
+    width: 60%;    
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -155,6 +155,12 @@ main{
     font-weight: 400;
 }
 
+.rodape__link:hover{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
 .hover-underline {
   position: relative;
   display: inline-block;
@@ -233,6 +239,24 @@ main{
   transform: rotate(-45deg) translateY(100%);
 }
 
+.rodape__link{
+    color: var(--cor-textos-destaque);
+    text-decoration: none;
+}
+
+@media (min-width: 1251px) {
+    .apresentacao {
+    background-image: url("../assets/lucas-background.png");
+    background-size: contain;
+    background-position: bottom 0px right 0px;
+    background-repeat: no-repeat;
+    }
+
+    .apresentacao__conteudo__imagem {
+        display: none;
+    }
+}
+
 @media (max-width: 1250px) {
     .cabecalho {
         padding: 10%;
@@ -242,7 +266,7 @@ main{
         justify-content: center;
     }
 
-    .apresentacao {
+    .apresentacao {        
         flex-direction: column-reverse;
         padding: 5%;    
     }
