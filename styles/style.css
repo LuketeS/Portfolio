@@ -48,8 +48,12 @@ main{
 .cabecalho__menu {
     display: flex; 
     gap: 80px;
+    word-break: break-word;
 }
 
+#cabecalho__projetos{
+    color: var(--cor-textos-destaque);
+}
 
 .cabecalho__menu__link {
     font-family: var(--fonte-textos);
@@ -113,6 +117,7 @@ main{
     flex-direction: column;
     align-items: center; 
     gap:32px;
+    margin-top: 50px;
 }   
 
 .apresentacao__conteudo__links__subtitulo {
@@ -120,11 +125,12 @@ main{
     font-family: var(--fonte-primária);
     font-weight: 400;
     font-style: normal;
+    word-break: break-word;
 }
 
 .apresentacao__conteudo__links__navegacao {
     display: flex;
-    width: 40%;
+    width: 35%;
     text-align: center;
     border-radius: 16px;
     font-size: 1.5rem;
@@ -138,11 +144,34 @@ main{
     border: 3px inset  var(--cor-textos-destaque);
     justify-content: center;
     gap: 16px;
+    word-break: break-word;
 }
 
 .apresentacao__conteudo__links__navegacao:hover {
-    background-color: var(--cor-hover);
-    font-size: 1.6rem;
+    transform: scale(1.07);
+    transition: ease-in-out .2s;
+}
+
+.apresentacao__conteudo__skills{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap:32px;
+}
+
+.apresentacao__conteudo__skills_titulo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.apresentacao__conteudo__skills__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apresentacao__conteudo__skills__item__img{
+    max-width: 100%;
 }
 
 .rodape {
@@ -153,6 +182,7 @@ main{
     font-size: 1.5rem;
     font-family: var(--fonte-textos);
     font-weight: 400;
+    word-break: break-word;
 }
 
 .rodape__link:hover{
@@ -244,6 +274,16 @@ main{
     text-decoration: none;
 }
 
+@media (min-width: 2118px) {
+    .apresentacao__conteudo{
+        max-width: 50%;
+    }
+
+    .apresentacao__conteudo__imagem{
+       max-width: 50%;
+    }    
+}
+
 @media (min-width: 1251px) {
     .apresentacao {
     background-image: url("../assets/lucas-background.png");
@@ -297,6 +337,7 @@ main{
         align-items: center;        
         gap: 20px;
         margin: 30px 0;
+        word-break:keep-all;
     }
 
     .cabecalho__menu__link {
@@ -305,21 +346,36 @@ main{
     }
 }
 
-@media (min-width: 2118px) {
-    .apresentacao__conteudo{
-        max-width: 50%;
+@media (max-width: 680px) {
+    .apresentacao__conteudo__links__navegacao{
+        width: 80%;
+        max-width: 100%;
     }
 
-    .apresentacao__conteudo__imagem{
-       max-width: 50%;
-    }    
+    .cabecalho__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        word-break:keep-all;
+    }
+
+    .cabecalho__menu__link {
+        padding: 0.5rem;
+    }
+
+    .apresentacao__conteudo__skills{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (max-width: 366px) {
     .apresentacao__conteudo{
         word-wrap: break-word;
     }
-
+    .cabecalho__menu {
+        word-break: break-word;
+    }
     .cabecalho{
         max-width: 100%;
     }
@@ -327,21 +383,9 @@ main{
     .cabecalho__logo{
         max-width: 100%;
     }
-}
 
-@media (max-width: 680px) {
-    .apresentacao__conteudo__links__navegacao{
-        width: 80%;
-    }
-
-    .cabecalho__menu {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .cabecalho__menu__link {
-        padding: 0.5rem;
+    .apresentacao__conteudo__links__subtitulo{
+        word-wrap: break-word;
     }
 }
 
