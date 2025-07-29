@@ -168,6 +168,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
+    word-break: break-word;
 }
 
 .apresentacao__conteudo__skills__item__img{
@@ -220,16 +222,8 @@ main{
   transform: scaleX(1);
 }
 
-.holographic-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: #000;
-}
-
 .holographic-card {
-  background: #111;
+  background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,20 +278,7 @@ main{
     }    
 }
 
-@media (min-width: 1251px) {
-    .apresentacao {
-    background-image: url("../assets/lucas-background.png");
-    background-size: contain;
-    background-position: bottom 0px right 0px;
-    background-repeat: no-repeat;
-    }
-
-    .apresentacao__conteudo__imagem {
-        display: none;
-    }
-}
-
-@media (max-width: 1250px) {
+@media (max-width: 1600px) {
     .cabecalho {
         padding: 10%;
     }
@@ -312,11 +293,11 @@ main{
     }
     
     .apresentacao__conteudo{
-        width: 75%;
+        width: 100%;
     }
 
     .apresentacao__conteudo__imagem{
-        width: 80%;
+        width: 100%;
     }
     
 }
