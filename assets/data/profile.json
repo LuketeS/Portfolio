@@ -18,6 +18,14 @@
       {
         "name": "CSS 3",
         "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/css3-ico.svg"
+      },
+      {
+        "name": "SQL",
+        "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/sql.svg"
+      },
+      {
+        "name": "Java",
+        "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/java.svg"
       }
     ],
     "softSkills": [
