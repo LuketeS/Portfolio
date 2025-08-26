@@ -13,6 +13,7 @@ function updateProfileInfo(profileData) {
     
     const profileData = await fetchProfileData();
     updateProfileInfo(profileData);
+    console.log(profileData)
 
 })()
 
