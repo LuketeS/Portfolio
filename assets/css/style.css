@@ -204,7 +204,15 @@ main{
     flex-flow: row wrap;
     margin-top: 1rem;
     gap: 1rem;
-    justify-content: center;
+    justify-content: center;    
+}
+
+.skills__conteudo li{
+    width: 5%;
+}
+
+.skills__conteudo li img{
+    max-width: 100%;
 }
 
 .skills__conteudo__item{
@@ -449,7 +457,11 @@ main{
     }
 
     .skills{
-        padding: 1% 1%;
+        padding: 5% 5%;
+    }
+
+    .skills__conteudo li{
+        width: 7%;
     }
 
     .sobre-mim{
@@ -517,15 +529,23 @@ main{
 
 @media (max-width:1000px){
 
-            .sobre-mim__imagem__img{
+    .sobre-mim__imagem__img{
         max-width: none;
         width: 150%;
     }
 }
 
+@media (max-width:800px){
+
+    .skills__conteudo li{
+        width: 10%;
+    }
+}
+
+
 @media (max-width:700px){
 
-        .sobre-mim__imagem__img{
+    .sobre-mim__imagem__img{
         max-width: none;
         width: 200%;
     }
@@ -565,5 +585,7 @@ main{
         font-size: 1.5rem;
     }
 
-   
+    .skills__conteudo li{
+    width: 15%;
+    }   
 }

@@ -8,33 +8,29 @@
   "skills": {
     "hardSkills": [
       {
-        "name": "Html",
-        "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/html-5.png"
-      },
-      {
         "name": "Javascript",
         "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/javascript.png"
-      },
-      {
-        "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/css-3.png"
-      },
-      {
-        "name": "SQL",
-        "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/sql.png"
-      },
-      {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/java.png"
       },
       {
         "name": "Node",
         "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/nodejs.png"
       },
       {
+        "name": "Java",
+        "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/java.png"
+      },
+      {
         "name": "Mysql",
         "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/mysql.png"
-      }         
+      },   
+      {
+        "name": "Html",
+        "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/html-5.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/css-3.png"
+      }      
     ],
     "softSkills": [
       "Empatia",
