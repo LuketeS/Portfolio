@@ -30,7 +30,11 @@
       {
         "name": "Node",
         "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/nodejs.png"
-      }      
+      },
+      {
+        "name": "Mysql",
+        "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/mysql.png"
+      }         
     ],
     "softSkills": [
       "Empatia",
