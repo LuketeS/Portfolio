@@ -26,7 +26,11 @@
       {
         "name": "Java",
         "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/java.png"
-      }
+      },
+      {
+        "name": "Node",
+        "logo": "https://raw.githubusercontent.com/LuketeS/portfolio-lucas-de-santana-schmalz/refs/heads/main/assets/img/nodejs.png"
+      }      
     ],
     "softSkills": [
       "Empatia",
