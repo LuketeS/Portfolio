@@ -1,8 +1,18 @@
 
+function updateProfileInfo(profileData) {
+    const photo = document.getElementById("sobre-mim__foto");
+    photo.src = profileData.photo;
+    photo.alt = "Foto do Lucas de Santana Schmalz, um homem de pele clara, cabelo castanho escuro e barba, sorrindo levemente.";
+
+    const name = document.getElementById("apresentacao__conteudo__titulo__nome");
+    name.innerText = profileData.name;
+}
+
+
 (async () => {
     
-    const profileData = await fetchProfileData()
-    console.log(profileData)
+    const profileData = await fetchProfileData();
+    updateProfileInfo(profileData);
 
 })()
 

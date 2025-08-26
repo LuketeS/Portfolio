@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/*Pontos de Interrupção (Breakpoints) Comuns:
-Móvel (Small): 320px a 767px.
-Tablet (Médio): 768px a 1024px.
-Desktop (Grande): 1025px a 1200px.
-Desktop (Extra Grande): 1201px ou mais*/
-
 :root {
     --cor-primaria:#010710;
     --cor-secundaria:#100D1A;
@@ -49,7 +43,7 @@ main{
 /*Títulos*/
 .apresentacao__conteudo__titulo, .sobre-mim__titulo, .skills__titulo, .projetos__titulo{
     font-family: var(--fonte-primária);
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -80,12 +74,11 @@ main{
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 2.2rem;  
-    text-transform:uppercase;
+    font-size: 1.5rem;  
 }
 
 .apresentacao__conteudo__subtitulo {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-family: var(--fonte-textos);
     font-weight: 400;
     font-style: normal;    
@@ -93,6 +86,7 @@ main{
 
 .titulo-destaque {
     color: var(--cor-textos-destaque);
+    font-size: 2rem;
 }
 
 .apresentacao{
@@ -117,7 +111,7 @@ main{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    width: 50%;
+    width: 75%;
 }
 
 .apresentacao__conteudo__texto{
@@ -389,16 +383,12 @@ main{
         font-size: 1.2rem;
     }
 
-    .apresentacao{
-        height: 400px;
-    }
-
     .apresentacao__conteudo{
         width: 100%;
     }
 
     .apresentacao__conteudo__titulo{
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 
     .apresentacao__conteudo__subtitulo{
@@ -415,7 +405,7 @@ main{
     }
 
     .sobre-mim__imagem{
-        width: 25%;
+        width: 30%;
     }
 }
 
@@ -437,7 +427,7 @@ main{
 
     .apresentacao{
         background-image: none;
-        height: auto;
+        height: 40vh;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -521,6 +511,24 @@ main{
     .projetos__projeto__imagem, .projetos__projeto__imagem2 {
         margin-bottom: 5%;
     }
+
+
+}
+
+@media (max-width:1000px){
+
+            .sobre-mim__imagem__img{
+        max-width: none;
+        width: 150%;
+    }
+}
+
+@media (max-width:700px){
+
+        .sobre-mim__imagem__img{
+        max-width: none;
+        width: 200%;
+    }
 }
 
 @media (max-width:610px){
@@ -546,12 +554,16 @@ main{
     .sobre-mim__texto{
         width: 80%;
     }
+
+
+    
 }
 
-@media (max-width:430px){
+@media (max-width:480px){
 
-    .sobre-mim__imagem__img{
-        max-width: none;
-        width: 200%;
+    .titulo-destaque {
+        font-size: 1.5rem;
     }
+
+   
 }
