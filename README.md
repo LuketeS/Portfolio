@@ -1,26 +1,52 @@
-# Meu Portfólio
+# Portfólio Pessoal
 
-Bem-vindo ao repositório do meu portfólio! Aqui está o website que apresenta minhas habilidades, experiência e projetos na área de Desenvolvimento Front-end.
+Bem-vindo(a) ao meu portfólio!
+Este é o website que reúne minhas **habilidades, experiência e projetos** na área de **Desenvolvimento web**.
 
-## 💻 Sobre o Projeto (Em Desenvolvimento)
-Este projeto é um site desenvolvido para exibir meu portfólio pessoal. Ele foi criado com o objetivo de demonstrar minha evolução como desenvolvedor e facilitar o contato com recrutadores e empresas interessadas no meu trabalho.
+O objetivo deste projeto é demonstrar minha evolução como desenvolvedor, além de facilitar o contato com recrutadores e empresas interessadas no meu trabalho. 🚀
 
-## 🌐 Tecnologias Utilizadas
-- **HTML5**
-- **CSS3**
-- **JavaScript**
+---
 
-## 🌟 Recursos do Site
-- Apresentação pessoal
-- *{Em Desenvolvimento} Seção de projetos com descrição e links
-- Contato e redes sociais
-- Design responsivo para dispositivos móveis e desktop
+## 💻 Sobre o Projeto
+
+Este portfólio foi desenvolvido para apresentar:
+
+* Minha trajetória profissional e acadêmica;
+* Projetos práticos desenvolvidos em **HTML, CSS e JavaScript**;
+* Meu aprendizado contínuo em **React.js** e boas práticas de desenvolvimento;
+* Links para contato e redes profissionais.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **HTML5**
+* **CSS3**
+* **JavaScript (ES6+)**
+* *(Em breve: React.js)*
+* **Git & GitHub**
+
+---
+
+## 🌟 Funcionalidades
+
+* Apresentação pessoal
+* Seção de projetos com descrição e links (em desenvolvimento)
+* Contato e redes sociais
+* Design responsivo para **mobile** e **desktop**
+
+---
 
 ## 🔗 Acesse o Portfólio Online
-[Meu Portfólio](https://portfolio-lucas-de-santana-schmalzs-projects.vercel.app/)
+
+👉 [Clique aqui para acessar meu portfólio](https://portfolio-lucas-de-santana-schmalzs-projects.vercel.app/)
+
+---
 
 ## 👤 Contato
-- **LinkedIn:** [Seu Perfil](https://www.linkedin.com/in/lucasschmalz/)
-- **E-mail:** lsschmalz@gmail.com
 
-Fique à vontade para explorar o repositório e contribuir com sugestões!
+* **LinkedIn:** [Meu Perfil](https://www.linkedin.com/in/lucasschmalz/)
+* **E-mail:** [lsschmalz@gmail.com](mailto:lsschmalz@gmail.com)
+
+---
+
