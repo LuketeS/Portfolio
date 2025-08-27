@@ -112,6 +112,7 @@ main{
     font-weight: 400;
     font-style: normal;
     width: 75%;
+    text-align:start;
 }
 
 .apresentacao__conteudo__texto{
@@ -277,10 +278,17 @@ main{
     flex-direction: row-reverse;
 }
 
+.projetos__projeto__descricao{
+    align-items: flex-end;
+}
+
+.projetos__projeto__descricao2{
+    align-items: flex-start;
+}
+
 .projetos__projeto__descricao, .projetos__projeto__descricao2{
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 40%;
     gap:3rem;
 }
@@ -291,11 +299,15 @@ main{
     font-size: 2rem;
 }
 
-.projetos__projeto__descricao__texto{
+.projetos__projeto__descricao__texto, .projetos__projeto__descricao__texto2{
     font-family: var(--fonte-textos);
     font-weight: 400;
     font-size: 1.6rem;
-    text-align: center;
+    text-align: right;
+}
+
+.projetos__projeto__descricao__texto2{
+    text-align: left;
 }
 
 .projetos__projeto__descricao__link{
@@ -314,7 +326,7 @@ main{
         width: 40%;
 }
 
-.projetos__projeto__descricao__titulo, .projetos__projeto__descricao__texto {
+.projetos__projeto__descricao__titulo, .projetos__projeto__descricao__texto, .projetos__projeto__descricao__texto2 {
         font-size: 1.2rem;
 }
 
@@ -388,7 +400,7 @@ main{
     }
 
     .cabecalho__menu__link{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .apresentacao__conteudo{
@@ -516,8 +528,9 @@ main{
         align-items: center;
     }
 
-    .projetos__projeto__descricao__texto{
+    .projetos__projeto__descricao__texto, .projetos__projeto__descricao__texto2{
         width: 75%;
+        text-align: center;
     }
 
     .projetos__projeto__imagem, .projetos__projeto__imagem2 {
@@ -567,7 +580,7 @@ main{
         margin-left: 0;
     }
 
-    .projetos__projeto__descricao__texto{
+    .projetos__projeto__descricao__texto, .projetos__projeto__descricao__texto2{
         width: 75%;
     }
 
@@ -586,6 +599,13 @@ main{
     }
 
     .skills__conteudo li{
-    width: 15%;
+        width: 15%;
     }   
+}
+
+@media (max-width:450px){
+
+    .cabecalho__menu{
+        gap: 15px;
+    }
 }
