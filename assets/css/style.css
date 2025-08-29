@@ -608,4 +608,8 @@ main{
     .cabecalho__menu{
         gap: 15px;
     }
+
+    .projetos__projeto__descricao__texto{
+        font-size: 1rem;
+    }
 }
