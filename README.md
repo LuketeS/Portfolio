@@ -1,4 +1,4 @@
-# Portfólio Pessoal
+# Portfólio
 
 Bem-vindo(a) ao meu portfólio!
 Este é o website que reúne minhas **habilidades, experiência e projetos** na área de **Desenvolvimento web**.
